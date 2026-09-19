@@ -283,8 +283,3 @@ This project demonstrates practical experience with:
 
 This project is intended for educational, engineering, and security research purposes. It is not a production e-commerce platform and should not be used to process real customer, payment, or sensitive personal information without additional production security controls.
 
-## Author
-
-**Deborah Quaye**
-
-Application Security | AI Security | Cloud Security | Agentic AI
