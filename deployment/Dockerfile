@@ -6,8 +6,8 @@ COPY requirements.txt ${LAMBDA_TASK_ROOT}/requirements.txt
 # Install dependencies
 RUN pip install --no-cache-dir -r ${LAMBDA_TASK_ROOT}/requirements.txt
 
-# Copy LangGraph application
-COPY graph.py ${LAMBDA_TASK_ROOT}/graph.py
+# Copy LangGraph application package
+COPY agent ${LAMBDA_TASK_ROOT}/agent
 
 # Lambda entry point
-CMD ["graph.lambda_handler"]
+CMD ["agent.graph.lambda_handler"]
